@@ -1,0 +1,33 @@
+Node 1--->(3,5) , parent: null,heuristic: 10,access_cost: 0
+Node 2--->(4,5) , parent: (3,5),heuristic: 9,access_cost: 1
+Node 3--->(3,6) , parent: (3,5),heuristic: 9,access_cost: 1
+Node 4--->(5,5) , parent: (4,5),heuristic: 8,access_cost: 2
+Node 5--->(3,7) , parent: (3,6),heuristic: 8,access_cost: 2
+Node 6--->(5,6) , parent: (5,5),heuristic: 7,access_cost: 3
+Node 7--->(3,8) , parent: (3,7),heuristic: 7,access_cost: 3
+Node 8--->(6,6) , parent: (5,6),heuristic: 6,access_cost: 4
+Node 9--->(5,7) , parent: (5,6),heuristic: 6,access_cost: 4
+Node 10--->(7,6) , parent: (6,6),heuristic: 5,access_cost: 5
+Node 11--->(6,7) , parent: (6,6),heuristic: 5,access_cost: 5
+Node 12--->(5,8) , parent: (5,7),heuristic: 5,access_cost: 5
+Node 13--->(8,6) , parent: (7,6),heuristic: 4,access_cost: 6
+Node 14--->(7,7) , parent: (7,6),heuristic: 4,access_cost: 6
+Node 15--->(9,6) , parent: (8,6),heuristic: 3,access_cost: 7
+Node 16--->(7,8) , parent: (7,7),heuristic: 3,access_cost: 7
+Node 17--->(9,7) , parent: (9,6),heuristic: 2,access_cost: 8
+Node 18--->(7,9) , parent: (7,8),heuristic: 2,access_cost: 8
+Node 19--->(9,8) , parent: (9,7),heuristic: 1,access_cost: 9
+Node 20--->(8,9) , parent: (7,9),heuristic: 1,access_cost: 9
+Node 21--->(9,9) , parent: (9,8),heuristic: 0,access_cost: 10
+-----------------------Astar found your route------------------------
+Goal --> (9,9)
+Node --> (9,8)
+Node --> (9,7)
+Node --> (9,6)
+Node --> (8,6)
+Node --> (7,6)
+Node --> (6,6)
+Node --> (5,6)
+Node --> (5,5)
+Node --> (4,5)
+Node --> (3,5)

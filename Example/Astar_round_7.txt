@@ -1,0 +1,17 @@
+Node 1--->(8,6) , parent: null,heuristic: 5,access_cost: 0
+Node 2--->(7,6) , parent: (8,6),heuristic: 4,access_cost: 1
+Node 3--->(8,7) , parent: (8,6),heuristic: 4,access_cost: 1
+Node 4--->(7,7) , parent: (7,6),heuristic: 3,access_cost: 2
+Node 5--->(8,8) , parent: (8,7),heuristic: 3,access_cost: 2
+Node 6--->(7,8) , parent: (7,7),heuristic: 2,access_cost: 3
+Node 7--->(8,9) , parent: (8,8),heuristic: 2,access_cost: 3
+Node 8--->(7,9) , parent: (7,8),heuristic: 1,access_cost: 4
+Node 9--->(8,10) , parent: (8,9),heuristic: 1,access_cost: 4
+Node 10--->(7,10) , parent: (7,9),heuristic: 0,access_cost: 5
+-----------------------Astar found your route------------------------
+Goal --> (7,10)
+Node --> (7,9)
+Node --> (7,8)
+Node --> (7,7)
+Node --> (7,6)
+Node --> (8,6)
